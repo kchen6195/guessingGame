@@ -26,11 +26,11 @@ public class game {
 				guess = input.nextInt();
 				if(guess > answer)
 				{
-					System.out.println("Number is too big");
+					System.out.println("Number is too big"); // This is helpful
 				}
 				if(guess < answer)
 				{
-					System.out.println("Number is too small");
+					System.out.println("Number is too small"); // Good job!
 				}
 				//System.out.println(answer);
 			}
