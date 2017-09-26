@@ -1,8 +1,13 @@
+/* KELVIN CHEN
+ * 9/26/17
+ * GuessingGame
+ */
+
 package guessingGame;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
+import java.lang.Math;
 
 public class game {
 
@@ -15,16 +20,24 @@ public class game {
 		{
 			System.out.println("Guess the number");
 			Scanner input = new Scanner(System.in);
-			guess = input.nextInt();
-			if(guess > answer)
+			
+			try
 			{
-				System.out.println("Number is too big");
+				guess = input.nextInt();
+				if(guess > answer)
+				{
+					System.out.println("Number is too big");
+				}
+				if(guess < answer)
+				{
+					System.out.println("Number is too small");
+				}
+				//System.out.println(answer);
 			}
-			if(guess < answer)
+			catch(InputMismatchException e)
 			{
-				System.out.println("Number is too small");
+				System.out.println("you made error "+ e);
 			}
-			System.out.println(answer);
 		}
 		System.out.println("you won");
 	}
