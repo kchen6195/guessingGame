@@ -11,14 +11,14 @@ import java.lang.Math;
 
 public class game {
 
-	public static void main(String [] args)
+	public static void main(String [] args)// kelvin
 	{
 		int guess = 0;
-		int answer = (int)(Math.random()*10+1);
+		int answer = (int)(Math.random()*10+1); // kelvin
 		
 		while(guess !=answer)
 		{
-			System.out.println("Guess the number");
+			System.out.println("Guess the number"); // kelvin
 			Scanner input = new Scanner(System.in);
 			
 			try
