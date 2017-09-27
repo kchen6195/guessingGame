@@ -18,7 +18,7 @@ public class game {
 		
 		while(guess !=answer)
 		{
-			System.out.println("Guess the number"); // kelvin kelvin kelvin kelvin Kelvin
+			System.out.println("Guess the number"); // kelvin kelvin kelvin kelvin Kelvin kelvin
 			Scanner input = new Scanner(System.in);
 			
 			try
