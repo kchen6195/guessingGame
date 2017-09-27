@@ -35,7 +35,7 @@ public class game { // Not very original name -E
 				//System.out.println(answer);.
 			}
 
-			catch(InputMismatchException e)//kelvin is better.
+			catch(InputMismatchException e)//kelvin is (not) better.
 
 			{
 				System.out.println("you made error "+ e);
