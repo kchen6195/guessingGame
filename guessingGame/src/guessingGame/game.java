@@ -32,7 +32,7 @@ public class game { // Not very original name -E
 				{
 					System.out.println("Number is too small"); // Good job! -E
 				}
-				//System.out.println(answer);
+				//System.out.println(answer);.
 			}
 			catch(InputMismatchException e)
 			{
