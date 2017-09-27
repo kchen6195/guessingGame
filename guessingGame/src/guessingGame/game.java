@@ -34,7 +34,7 @@ public class game { // Not very original name -E
 				}
 				//System.out.println(answer);.
 			}
-			catch(InputMismatchException e)
+			catch(InputMismatchException e) // Edward was here -E
 			{
 				System.out.println("you made error "+ e);
 			}
