@@ -9,7 +9,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.lang.Math;
 
-public class game {
+public class game { // Not very original name -E
 
 	public static void main(String [] args)
 	{
@@ -26,11 +26,11 @@ public class game {
 				guess = input.nextInt();
 				if(guess > answer)
 				{
-					System.out.println("Number is too big"); // This is helpful
+					System.out.println("Number is too big"); // This is helpful -E
 				}
 				if(guess < answer)
 				{
-					System.out.println("Number is too small"); // Good job!
+					System.out.println("Number is too small"); // Good job! -E
 				}
 				//System.out.println(answer);
 			}
@@ -41,4 +41,4 @@ public class game {
 		}
 		System.out.println("you won");//I really hope this changes
 	}
-}
+} // Cool code -E
