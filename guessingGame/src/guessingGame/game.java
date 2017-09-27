@@ -33,10 +33,10 @@ public class game { // Not very original name -E
 					System.out.println("Number is too small"); // Good job! -E
 				}
 				//System.out.println(answer);.
-			}
+			}// Edward was here
 
 
-			catch(InputMismatchException e)//kelvin is still better.
+			catch(InputMismatchException e)//kelvin is still not better. Haha
 
 
 			{
